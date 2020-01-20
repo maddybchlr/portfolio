@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i&display=swap');
+
+@import url("https://use.typekit.net/ybs5mbc.css");
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+
+  background-color:#F7F7F5;
+  cursor:default;
+}
+
+div {
+  cursor:default;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor:pointer;
+  text-decoration:underline;
+  /* font-style:italic; */
+}
+
+.mainwrapper {
+  /* border:1px solid black; */
+
+  position:absolute;
+  display:flex;
+}
+
+.sidebar {
+  /* border:1px solid blue; */
+
+  width:21.2%;
+  min-width:188px;
+  padding:60px;
+
+  font-family:hind;
+  line-height:17px;
+  font-weight: 300;
+  font-size:10.1pt;
+  text-align:left;
+}
+
+
+
+.sbinfowrapper {
+  /* border:1px solid grey; */
+
+  position:fixed;
+
+  display:flex;
+  flex-direction: column;
+
+  width:21%;
+  min-width:186px;
+
+  height:100vh;
+}
+
+.info {
+  /* border:1px solid green; */
+}
+
+.name:hover {
+  text-decoration:none;
+}
+
+.name {
+  font-family:big-caslon-fb, serif;
+  font-size:11.1pt;
+  letter-spacing:.02em;
+}
+
+.workslistwrapper {
+  /* border: 1px solid green; */
+
+  display:flex;
+  margin-top:35px;
+}
+
+.selectedworks {
+  /* border:1px solid pink; */
+
+  line-height:17px;
+  width:58%;
+}
+
+.spacer {
+  /* border:1px solid orange; */
+
+  min-width:13px;
+}
+
+.list {
+  /* border:1px solid pink; */
+
+  line-height:17px;
+  min-width:118px;
+}
+
+
+
+.footer {
+  /* border:1px solid green; */
+
+  display:flex;
+  position:absolute;
+  bottom:120px;
+  width:100%;
+}
+
+.socialmedia {
+  /* border:1px solid pink; */
+
+  width:62.7%;
+}
+
+.insta,
+.linkedin,
+.arena,
+.resumecontact {
+  opacity:.3;
+}
+
+.arena {
+  height:17px;
+  bottom:4px;
+  position:relative;
+  left:20px;
+}
+
+.linkedin {
+  height:14px;
+  bottom:2px;
+  left:10px;
+  position:relative;
+}
+
+.insta {
+  height:14px;
+  bottom:2px;
+  position:relative;
+}
+
+.resumecontact {
+  /* border:1px solid pink; */
+
+  position:relative;
+  top:1px;
+}
+
+
+
+.content {
+  /* border:1px solid blue; */
+
+  width:65.7%;
+  padding:60px;
+  padding-right:64px;
+  padding-left:0px;
+}
+
+
+
+
+
+#weavevideo {
+  box-shadow: 4px 4px 7px #808080;
+  margin-bottom:60px;
+}
+
+#funvideo {
+  box-shadow: 4px 4px 7px #808080;
+  margin-bottom:60px;
+}
+
+.row {
+  /* border:1px solid black; */
+
+  width:100%;
+  display:flex;
+
+  margin-bottom:55px;
+}
+
+.row2 {
+  /* border:1px solid black; */
+
+  width:100%;
+  display:flex;
+
+  margin-bottom:-5px;
+}
+
+.column1 {
+  /* border:1px dashed red; */
+
+  float: left;
+  width: 33.33%;
+  margin-right:60px;
+}
+
+.column2 {
+  /* border:1px dashed red; */
+
+  float: left;
+  width: 33.33%;
+}
+
+.column3 {
+  /* border:1px dashed red; */
+
+  float: left;
+  width: 50%;
+  margin-right:60px;
+}
+
+.column4 {
+  /* border:1px dashed red; */
+
+  float: left;
+  width: 50%;
+}
+
+.imga {
+  box-shadow: 4px 4px 7px #808080;
+  border-top-right-radius: 6.5%;
+  border-bottom-right-radius: 6.5%;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.imgb {
+  box-shadow: 4px 4px 7px #808080;
+}
+
+.singleimg {
+  width:100%;
+  box-shadow: 4px 4px 7px #808080;
+  margin-bottom:60px;
+}
+
+
+
+
+section {
+opacity: 0;
+transform: translate(0, 20px);
+transition: all 1.5s;
+}
+
+section.visible {
+opacity: 1;
+transform: translate(0, 0);
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+  .mainwrapper {
+    flex-direction:column;
+    width:100%;
+  }
+
+@media screen and (max-width: 770px) {
+  .sidebar {
+    width:auto;
+    padding:30px;
+    padding-bottom:0px;
+  }
+
+@media screen and (max-width: 770px) {
+  .sbinfowrapper {
+    width:100%;
+    position:relative;
+    height:100%;
+  }
+
+@media screen and (max-width: 770px) {
+  .selectedworks {
+    width:79.7%;
+  }
+
+@media screen and (max-width: 770px) {
+  .content {
+    width:auto;
+    padding:30px;
+    padding-top:23px;
+  }
+
+@media screen and (max-width: 770px) {
+  .footer {
+    margin-top:35px;
+    position:static;
+  }
+
+@media screen and (max-width: 770px) {
+  .socialmedia {
+    width:90%;
+  }
+
+@media screen and (max-width: 770px) {
+  #weavevideo,
+  .singleimg,
+  .firstreaders,
+  #funvideo {
+    margin-bottom:30px;
+  }
+
+@media screen and (max-width: 770px) {
+  .row {
+    margin-bottom:25px;
+  }
+
+@media screen and (max-width: 770px) {
+  .column1,
+  .column3 {
+    margin-right:30px;
+  }
