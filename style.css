@@ -2,6 +2,10 @@
 
 @import url("https://use.typekit.net/ybs5mbc.css");
 
+@import url("https://use.typekit.net/umn4ahw.css");
+
+@import url('https://fonts.googleapis.com/css?family=Spectral:200,300,400,500,600,700&display=swap');
+
 html,
 body {
   margin:0;
@@ -23,8 +27,8 @@ a {
 
 a:hover {
   cursor:pointer;
-  text-decoration:underline;
-  /* font-style:italic; */
+  /* text-decoration:underline; */
+  font-style:italic;
 }
 
 .mainwrapper {
@@ -46,6 +50,7 @@ a:hover {
   font-weight: 300;
   font-size:10.1pt;
   text-align:left;
+  /* letter-spacing:.01em; */
 }
 
 
@@ -70,12 +75,39 @@ a:hover {
 
 .name:hover {
   text-decoration:none;
+  font-style:normal;
+  cursor:default;
 }
 
 .name {
   font-family:big-caslon-fb, serif;
   font-size:11.1pt;
-  letter-spacing:.02em;
+  letter-spacing:.03em;
+  font-weight:400;
+
+  /* font-family:hind;
+  font-size:10.1pt; */
+
+  /* font-family:calluna;
+  font-size:11.2pt;
+  font-weight:300; */
+
+  /* font-family:spectral;
+  font-size:12pt;
+  font-weight:300;
+  letter-spacing:-.03em; */
+
+  /* font-family: warnock-pro;
+  font-weight:300;
+  font-size:11.7pt; */
+
+  /* font-family: kepler-std;
+  font-weight: 300;
+  font-size:12.5pt; */
+
+  /* font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 300;
+  font-size:20pt; */
 }
 
 .workslistwrapper {

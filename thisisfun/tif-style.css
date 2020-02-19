@@ -23,8 +23,8 @@ a {
 
 a:hover {
   cursor:pointer;
-  text-decoration:underline;
-  /* font-style:italic; */
+  /* text-decoration:underline; */
+  font-style:italic;
 }
 
 .mainwrapper {
@@ -70,12 +70,15 @@ a:hover {
 
 .name:hover {
   text-decoration:none;
+  font-style:normal;
+  cursor:default;
 }
 
 .name {
   font-family:big-caslon-fb, serif;
   font-size:11.1pt;
   letter-spacing:.02em;
+  font-weight:400;
 }
 
 
