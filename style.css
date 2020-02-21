@@ -160,6 +160,10 @@ a:hover {
   width:62.7%;
 }
 
+.sm:hover {
+  text-decoration:none;
+}
+
 .insta,
 .linkedin,
 .arena,
