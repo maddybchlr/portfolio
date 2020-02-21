@@ -27,8 +27,8 @@ a {
 
 a:hover {
   cursor:pointer;
-  /* text-decoration:underline; */
-  font-style:italic;
+  text-decoration:underline;
+  /* font-style:italic; */
 }
 
 .mainwrapper {
@@ -45,12 +45,17 @@ a:hover {
   min-width:188px;
   padding:60px;
 
-  font-family:hind;
+  text-align:left;
+
+  /* font-family:hind;
   line-height:17px;
   font-weight: 300;
-  font-size:10.1pt;
-  text-align:left;
+  font-size:9.8pt; */
   /* letter-spacing:.01em; */
+
+  font-family: calluna;
+  font-weight: 300;
+  font-size:10pt;
 }
 
 
@@ -80,17 +85,13 @@ a:hover {
 }
 
 .name {
-  font-family:big-caslon-fb, serif;
+  /* font-family:big-caslon-fb, serif;
   font-size:11.1pt;
   letter-spacing:.03em;
-  font-weight:400;
+  font-weight:400; */
 
   /* font-family:hind;
   font-size:10.1pt; */
-
-  /* font-family:calluna;
-  font-size:11.2pt;
-  font-weight:300; */
 
   /* font-family:spectral;
   font-size:12pt;
@@ -108,19 +109,23 @@ a:hover {
   /* font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 300;
   font-size:20pt; */
+
+  font-family: calluna;
+  font-weight: 300;
+  font-size:14pt;
 }
 
 .workslistwrapper {
   /* border: 1px solid green; */
 
   display:flex;
-  margin-top:35px;
+  margin-top:33px;
+  /* margin-top:22px; */
 }
 
 .selectedworks {
   /* border:1px solid pink; */
 
-  line-height:17px;
   width:58%;
 }
 
@@ -133,8 +138,9 @@ a:hover {
 .list {
   /* border:1px solid pink; */
 
-  line-height:17px;
-  min-width:118px;
+  /* min-width:118px; */
+  min-width:119px;
+  line-height:1.21em;
 }
 
 
@@ -158,7 +164,7 @@ a:hover {
 .linkedin,
 .arena,
 .resumecontact {
-  opacity:.3;
+  opacity:.4;
 }
 
 .arena {
